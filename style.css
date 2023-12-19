@@ -1,1 +1,441 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.mylogo {
+    margin-left: 130px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #6070ff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .list {
+    margin-left: auto;
+    margin-right: 100px;
+  }
+  
+  .list_parts {
+    margin-right: 20px;
+    color: #344563;
+  }
+  
+  .headline {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(header\ background\ shape-desktop.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    border-bottom-left-radius: 100px;
+  }
+  
+  .primarytext {
+    font-size: 40px;
+    width: 500px;
+    color: #172b4d;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  
+  .primarytext2 {
+    width: auto;
+    height: 100px;
+    font-size: 20px;
+    color: #344563;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-right: 200px;
+    vertical-align: top;
+  }
+  
+  .connect {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 200px;
+    color: #7f8cff;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin-left: 200px;
+    padding-left: 0;
+    width: 170.167px;
+    height: 20px;
+  }
+  
+  .worksection {
+    display: grid;
+    grid-template-rows: repeat(4);
+    gap: 16px;
+    background-color: whitesmoke;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+  }
+  
+  .card {
+    width: 1156px;
+    height: 450px;
+    display: flex;
+    border-radius: 24px;
+    background-color: white;
+    border: 20px solid white;
+    font-family: 'Poppins', sans-serif;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 0 2px #a7aeef;
+  }
+  
+  .desc {
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .snapshoot {
+    background-image: url(./Snapshoot\ Portfolio.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 544px;
+    height: 448px;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .role {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: #344563;
+    height: 60px;
+    align-items: center;
+  }
+  
+  .role img {
+    margin-left: 15px;
+  }
+  
+  .basic-text {
+    margin-left: 15px;
+    color: #7a869a;
+    font-size: 18px;
+  }
+  
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    width: 496px;
+    height: 110px;
+  }
+  
+  .project-description p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .proj-lang {
+    display: flex;
+    align-items: center;
+  }
+  
+  .proj-lang h6 {
+    border-radius: 10px;
+    background-color: #ebebff;
+    padding: 4px 12px;
+    margin: 5px;
+    color: #6070ff;
+  }
+  
+  .project-button {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 50px;
+    padding: 12px;
+    border: 2px solid #6070ff;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    color: #396df2;
+  }
+  
+  .card2 {
+    background-image: url(./Snapshoot\ Portfolio.png);
+  }
+  
+  .card3 {
+    background-image: url(./Snapshoot\ Portfolio.png);
+  }
+  
+  .card4 {
+    background-image: url(./Snapshoot\ Portfolio.png);
+  }
+  
+  .sec-first {
+    margin-top: 90px;
+  }
+  
+  .reverse-card {
+    flex-direction: row-reverse;
+  }
+  
+  .about {
+    background-color: white;
+    width: 98%;
+    height: 750px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+  }
+  
+  .details {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 166px;
+    margin-left: 143px;
+    margin-bottom: 447px;
+    width: 447px;
+  }
+  
+  .head {
+    height: 33px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #091e42;
+  }
+  
+  .head-description {
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+  }
+  
+  .letconnect {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    height: auto;
+    color: #7f8cff;
+  }
+  
+  .socialmediaicons {
+    padding-left: 0;
+    width: 170.167px;
+    height: 20px;
+  }
+  
+  .resume {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px;
+    border: 2px solid #396df2;
+    border-radius: 10px;
+    width: 160px;
+    text-align: center;
+    color: #396df2;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .resume:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+  
+  .resume:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 166px;
+    margin-left: 150px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 142px;
+  }
+  
+  .skillhead {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 25px;
+  }
+  
+  .languages {
+    display: flex;
+  }
+  
+  .lang-parts {
+    background-color: whitesmoke;
+    height: 98px;
+    border-radius: 10px;
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .lang-parts img {
+    width: 48px;
+    height: 48px;
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .lang-parts h4 {
+    width: 98px;
+    height: 24px;
+    font-size: 15px;
+    font-weight: 500;
+    align-self: flex-end;
+    color: #253858;
+  }
+  
+  .skillhead {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    color: #344563;
+    padding-right: 20px;
+  }
+  
+  .border {
+    border-bottom: 2px solid #dfe1e6;
+  }
+  
+  .contact {
+    background-color: #6070ff;
+    width: 100%;
+    height: 846px;
+    border-top-left-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .background {
+    background-image: url(./asset/contactdesktop.png);
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 846px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+  }
+  
+  .contact-head {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    align-self: center;
+    width: 801px;
+    height: 100px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .contact-desc {
+    font-size: 20px;
+    font-weight: 400;
+    align-self: center;
+    color: #ebebff;
+    width: 569px;
+    height: 102px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .email {
+    width: 447px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    align-self: center;
+    padding-top: 15px;
+    resize: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  .message {
+    width: 447px;
+    height: 170px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    align-self: center;
+    padding-top: 15px;
+    resize: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  .send {
+    align-self: center;
+    color: #6070ff;
+    font-size: 17px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 12px;
+    border: 2px solid #396df2;
+    border-radius: 10px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .send:hover {
+    background-color: #2230d2;
+    color: #fff;
+  }
+  
+  .send:active {
+    background-color: #2d8bd4;
+    color: #fff;
+  }
+  
+  .form-spree {
+    width: 100%;
+    display: flex;
+    margin-bottom: 51px;
+    flex-direction: column;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+  
