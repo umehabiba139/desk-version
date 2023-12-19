@@ -20,7 +20,7 @@ body {
 }
 
 .mylogo {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   margin-left: 20px;
   color: #6070ff;
@@ -41,5 +41,5 @@ body {
   width: 24px;
   margin-bottom:5%;
   border-radius: 5px;
-  
+  transition: all 0.3s ease;
 }
