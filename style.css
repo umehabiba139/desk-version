@@ -31,7 +31,7 @@
     height: 90%;
     display: flex;
     flex-direction: column;
-    background-image: url(header\ background\ shape-desktop.svg);
+    background-image: url(./header\ background\ shape-desktop.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -112,7 +112,7 @@
   }
   
   .snapshoot {
-    background-image: url(./Snapshoot\ Portfolio.png);
+    background-image: url(/Snapshoot\ Portfolio.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 544px;
@@ -182,15 +182,15 @@
   }
   
   .card2 {
-    background-image: url(./Snapshoot\ Portfolio.png);
+    background-image: url(/Snapshoot\ Portfolio.png);
   }
   
   .card3 {
-    background-image: url(./Snapshoot\ Portfolio.png);
+    background-image: url(/Snapshoot\ Portfolio.png);
   }
   
   .card4 {
-    background-image: url(./Snapshoot\ Portfolio.png);
+    background-image: url(/Snapshoot\ Portfolio.png);
   }
   
   .sec-first {
