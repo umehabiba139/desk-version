@@ -511,3 +511,53 @@ body {
   text-align: center;
   line-height: 28px;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  width: 80%;
+}
+
+.name,
+.text {
+  width: 94%;
+  height: 50px;
+  border-radius: 10px;
+  border: transparent;
+  margin-bottom: 7%;
+  padding-left: 5%;
+  align-self: center;
+}
+
+.text {
+  height: 150px;
+  resize: none;
+}
+
+.special-project {
+  display: none;
+}
+
+.submit {
+  align-self: flex-start;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  font-size: 17px;
+  border: solid #6070ff;
+  color: #396df2;
+  background-color: white;
+  margin-top: 2%;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #2230d2;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submit:active {
+  background-color: #2d8bd4;
+  color: #fff;
+}
