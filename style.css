@@ -294,3 +294,31 @@ body {
 .margin {
   margin-left: 5%;
 }
+
+.project {
+  align-self: flex-start;
+  height: 10vw;
+  width: 30%;
+  border-radius: 8px;
+  font-size: 3.2vw;
+  border: solid #6070ff;
+  color: #396df2;
+  background-color: white;
+  padding: 2%;
+}
+
+.project-mob {
+  display: flex;
+  height: 10vw;
+  width: 40%;
+  align-content: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 3.9vw;
+  border: solid #6070ff;
+  color: #396df2;
+  background-color: white;
+  padding: 2%;
+  gap: 2%;
+}
+
