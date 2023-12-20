@@ -588,3 +588,50 @@ body {
     width: 85%;
     margin: 15% auto 0;
   }
+  .pc-hide {
+    display: none;
+  }
+
+  .bottom-padd {
+    padding-bottom: 5%;
+  }
+
+  .img {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .img img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .project {
+    font-size: 1.4vw;
+    height: 4.2vw;
+    width: 25%;
+    border: solid #7f8cff;
+    font-weight: 500;
+  }
+
+  .card-details {
+    margin-left: 4%;
+    margin-top: 0;
+    height: auto;
+    width: 60%;
+  }
+
+  .card-details h1 {
+    font-size: 2.5vw;
+    height: auto;
+    width: auto;
+  }
+
+  .card-details p {
+    font-size: 1.2vw;
+    height: auto;
+    width: auto;
+  }
+  
