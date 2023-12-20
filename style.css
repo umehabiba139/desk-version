@@ -212,3 +212,19 @@ body {
   justify-content: center;
 }
 
+.img img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.card-details h1 {
+  font-size: 7.2vw;
+  font-weight: 700;
+  height: auto;
+  width: auto;
+  align-self: flex-start;
+  color: #172b4d;
+  margin: 0;
+}
+
