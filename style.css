@@ -59,3 +59,17 @@ body {
 .techs-overlay h3 {
   margin-right: 2%;
 }
+.top-card {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.p-over {
+  padding-top: 5%;
+  margin-bottom: 0;
+}
+
+.top-card h1 {
+  padding: 0;
+}
