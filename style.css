@@ -228,3 +228,39 @@ body {
   margin: 0;
 }
 
+.techs {
+  display: flex;
+  align-self: flex-start;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.tech-item {
+  font-size: 3.7vw;
+  font-weight: 600;
+  margin-left: 2%;
+  color: #7a869a;
+}
+
+.no-margin {
+  margin-left: 0;
+  color: #344563;
+}
+
+.techs img {
+  margin-left: 2%;
+}
+
+.card-details p {
+  font-size: 3.8vw;
+  font-weight: 500;
+  margin-top: 0;
+  color: #344563;
+}
+
+.card-details ul {
+  display: flex;
+  align-self: flex-start;
+  list-style: none;
+  padding-left: 0;
+}
