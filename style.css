@@ -105,3 +105,20 @@ body {
   justify-content: center;
   overflow-y: scroll;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: auto;
+  width: auto;
+  justify-items: center;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 15px;
+  border: 20px solid white;
+  margin-top: 150px;
+  transition: box-shadow 0.3s ease;
+  transition: transform 0.9s;
+}
