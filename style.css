@@ -26,14 +26,7 @@ body {
   color: #6070ff;
 }
 
-.ham-menu {
-  display: flex;
-  flex-direction: column;
-  margin-right: 5%;
-  width: 15%;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .bar {
   background-color:#6070ff;
@@ -304,7 +297,7 @@ body {
   border: solid #6070ff;
   color: #396df2;
   background-color: white;
-  padding: 2%;
+  padding: 3%;
 }
 
 .project-mob {
