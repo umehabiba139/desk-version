@@ -322,3 +322,16 @@ body {
   gap: 2%;
 }
 
+.project:hover,
+.project-mob:hover {
+  cursor: pointer;
+  background-color: #2d8bd4;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project:active,
+.project-mob:active {
+  background-color: #6070ff;
+  color: #fff;
+}
