@@ -854,7 +854,7 @@ body {
 
   .special-project:hover {
     cursor: pointer;
-    background-color: #2d8bd4;
+    background-color: #2b87ce;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
