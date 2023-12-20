@@ -764,7 +764,7 @@ body {
   }
 
   .form-background {
-    background-image: url(./images/desktop/contactdesktop.png);
+    background-image: url(./contactdesktop.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
