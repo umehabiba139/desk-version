@@ -152,3 +152,19 @@ body {
   font-size: 32px;
   padding-left: 8%;
 }
+
+.buttons {
+  display: flex;
+  gap: 5%;
+}
+
+.headline {
+  width: 100%;
+  height: auto;
+  background-image: url(./headerbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 50px;
+  background-color: #fff;
+}
+
