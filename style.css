@@ -634,4 +634,161 @@ body {
     height: auto;
     width: auto;
   }
-  
+
+
+  .lang-list {
+    font-size: 1.1vw;
+  }
+
+  .tech-item {
+    font-size: 1.3vw;
+    font-weight: 400;
+  }
+
+  .font {
+    font-weight: 500;
+  }
+
+  .margin {
+    margin-left: 10px;
+  }
+
+  .reverse-card {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .headline {
+    background-image: url(./images/desktop/headerbackground.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    border-bottom-left-radius: 100px;
+  }
+
+  .intro-head {
+    margin-top: 10%;
+    width: 30%;
+  }
+
+  .intro {
+    width: 60%;
+  }
+
+  .mylogo {
+    margin-left: 8%;
+  }
+
+  .menu {
+    margin-right: 8%;
+    display: none;
+  }
+
+  .skills {
+    flex-direction: row;
+    border-top-right-radius: 100px;
+    margin-top: 15%;
+    height: 80vh;
+  }
+
+  .details {
+    width: 40%;
+  }
+
+  .details p {
+    margin-top: 0;
+  }
+
+  .details h1 {
+    font-size: 2vw;
+  }
+
+  .connect-skills {
+    margin-top: 0;
+    font-size: 1.3vw;
+  }
+
+  .resume-button {
+    margin-top: 7%;
+    font-size: 1.2vw;
+    padding: 2%;
+  }
+
+  .lang-drop.languages {
+    flex-direction: row;
+    transition: 300s ease-in-out;
+  }
+
+  .list-header {
+    width: 600px;
+  }
+
+  .first-head {
+    margin-top: 20%;
+  }
+
+  .header-lang {
+    margin-top: 20%;
+  }
+
+  .lang-item {
+    width: 15%;
+    height: 55%;
+    margin-right: 5%;
+    flex-direction: column;
+  }
+
+  .form-background p {
+    width: 35%;
+    text-align: center;
+  }
+
+  .form-background h1 {
+    font-size: 3.5vw;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 2%;
+  }
+
+  .name,
+  .text {
+    width: 35%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+  }
+
+  .form {
+    margin-top: 5%;
+  }
+
+  .submit {
+    align-self: center;
+    margin-top: 0;
+  }
+
+  .footer {
+    width: 0;
+  }
+
+  .form-background {
+    background-image: url(./images/desktop/contactdesktop.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 150px;
+    padding-top: 10%;
+  }
+
+  .nav-links {
+    display: flex;
+    align-self: center;
+    margin-right: 13%;
+  }
+
+  .nav-link {
+    margin-left: 12%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #344563;
+    text-decoration: none;
+  }
