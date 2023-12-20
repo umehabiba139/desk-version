@@ -98,3 +98,10 @@ body {
   transition: opacity 0.9s ease;
   gap: 5%;
 }
+
+.overlay-card {
+  background-color: rgba(193, 199, 208, 0.8);
+  align-content: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
