@@ -561,3 +561,15 @@ body {
   background-color: #2d8bd4;
   color: #fff;
 }
+
+.footer {
+  background: #0d151e;
+  width: 30%;
+  height: 5px;
+  border-radius: 10px;
+  margin: 2% 0;
+}
+
+.bottom-padd {
+  padding-bottom: 15%;
+}
