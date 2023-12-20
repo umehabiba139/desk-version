@@ -573,3 +573,18 @@ body {
 .bottom-padd {
   padding-bottom: 15%;
 }
+
+@media only screen and (max-width: 767px) {
+  .mob-hide {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .card {
+    flex-direction: row;
+    height: auto;
+    border-radius: 20px;
+    width: 85%;
+    margin: 15% auto 0;
+  }
