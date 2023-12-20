@@ -401,3 +401,20 @@ body {
   background-color: #2230d2;
   color: #fff;
 }
+
+.langs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 7%;
+}
+
+.list-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
