@@ -366,3 +366,38 @@ body {
   color: #344563;
   margin: 0;
 }
+
+.connect-skills {
+  font-size: 4.3vw;
+  font-weight: 400;
+  color: #7f8cff;
+}
+
+.lets-connect-skills {
+  width: 40%;
+}
+
+.resume-button {
+  align-self: flex-start;
+  height: auto;
+  width: auto;
+  border-radius: 8px;
+  font-size: 4.2vw;
+  border: solid #6070ff;
+  color: #396df2;
+  background-color: white;
+  margin-top: 2%;
+  padding: 4%;
+}
+
+.resume-button:hover {
+  cursor: pointer;
+  background-color: #2d8bd4;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resume-button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
