@@ -264,3 +264,33 @@ body {
   list-style: none;
   padding-left: 0;
 }
+
+.langs-button ul {
+  display: flex;
+  align-self: flex-start;
+  list-style: none;
+  padding-left: 0;
+  gap: 5%;
+}
+
+.lang-list {
+  align-self: flex-start;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-size: 3vw;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.lang-list a {
+  text-decoration:none;
+  color: #6070ff;
+}
+
+.lang-list:hover a {
+  color: #fff;
+}
+
+.margin {
+  margin-left: 5%;
+}
