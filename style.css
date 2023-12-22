@@ -468,7 +468,7 @@ body {
   }
 
   .headline {
-    background-image: url(./images/desktop/headerbackground.png);
+    background-image: url(./contactdesktop.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90vh;
@@ -573,7 +573,7 @@ body {
   }
 
   .form-background {
-    background-image: url(./images/desktop/contactdesktop.png);
+    background-image: url(./headerbackground.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
